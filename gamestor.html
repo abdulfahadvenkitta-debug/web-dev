@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStore</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display:wrap;
+        } 
+        nav{
+            background:rgb(12, 0, 91);
+            padding:20px 50px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        div.menu{
+            display:flex;
+            gap:30px;
+        }
+           #brand{
+            color: white;
+            display: inline-block;
+            margin-right: 200px;
+        }
+        .menu a{
+            color:white;
+            text-decoration:none;
+            font-size:18px;
+        }
+        .menu a:hover{
+            color:rgb(0, 236, 165);
+            transition: 0.5s;
+        }
+        #fgames{
+            text-align:center;
+            font-family:Arial, Helvetica, sans-serif;
+            color:rgb(12, 0, 91);
+            font-size:30px;
+
+        }
+
+        #sso{
+            text-align:center;
+            font-family:Arial, Helvetica, sans-serif;
+            color:rgb(12, 0, 91);
+            font-size:30px;
+
+        }
+
+         #nd{
+            text-align:center;
+            font-family:Arial, Helvetica, sans-serif;
+            color:rgb(12, 0, 91);
+            font-size:30px;
+
+        }
+
+         #cr{
+            margin-left: 50px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:rgb(12, 0, 91);
+            font-size:30px;
+
+        }
+        
+        .product{
+            border:1px rgb(12,0,91) solid;
+            border-radius:12px;
+            margin: 20px;
+            padding: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 3px 3px 6px rgb(12,0,91);
+            display: inline-block;
+
+        }
+        .product img{
+            width: 100%;
+            height: 280px;
+            object-fit: fill;
+            border-radius: 12px;
+        }
+        .product button{
+            background-color: rgb(12, 0, 91);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 12px;
+            width: 90%;
+            cursor:pointer;
+        }
+        .product:hover{
+            background-color: rgb(0, 236, 165);
+            transition: 0.5s;
+        }
+        
+        .crd{
+            border:1px rgb(12,0,91) solid;
+            border-radius:12px;
+            margin: 20px;
+            padding: 15px;
+            text-align: left;
+            width: 300px;
+            box-shadow: 3px 3px 6px rgb(12,0,91);
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 id="brand">BeatBox Games</h1>
+
+        <div class="menu">
+            <a href="#menu">Home</a>
+            <a href="#fgames">Featured Games</a>
+            <a href="#nd">New Releases</a>
+            <a href="#login.html">Login</a>
+        </div>
+    </nav>
+
+    <h2 id="fgames">FEATURED GAMES</h2>
+
+    <div class="product">
+        <img src="https://myhotposters.com/cdn/shop/files/EA_Sports_FC_26_90_grande.webp?v=1760456651" >
+        <h2>FC 26</h2>
+        <p>EA Sports FC 26 is an association football simulation video game published by Electronic Arts.<BR>
+        Starting just at <b>Rs.599</b> for BASE game and <b>Rs.799</b> for World Cup edition </p>
+        <button>Buy Now</button>
+    </div>
+    
+     <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Call_Of_Duty_%282003%29%2CCover%2CUpdated.jpg" >
+        <h2>Call of Duty</h2>
+        <p>Call of Duty is a first-person shooter video game franchise developed by Infinity Ward and published by Activision.<br>
+        <b>Rs.999</b></p>
+        <button>Buy Now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoxMB3JKoRT4kdmHORjj2tAMLRSguAbzApTuPfkn2-V8OwNyy6gN_kLDN8&s=10" >
+        <h2>Assassin's Creed</h2>
+        <p>Assassin's Creed is a historical action-adventure video game franchise developed by Ubisoft.<br>
+        <b>Rs.1299</b></p>
+        <button>Buy Now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://m.media-amazon.com/images/I/91RSQACsJeL._AC_UF1000,1000_QL80_.jpg" >
+        <h2>God of War</h2>
+        <p>God of War is a action-adventure video game franchise developed by Santa Monica Studio and published by Sony Interactive Entertainment.<br>
+        <b>Rs.1099</b></p>
+        <button>Buy Now</button>
+    </div>
+    
+     <h2 id="sso">SUMMER SALE OFFER </h2>
+
+     <p align="center" style="font-size: 24px; color: #333;">Get your favorite games at discounted prices during our Summer Sale! Limited time offer, so grab your games now!</p>
+    
+     <div class="product">
+        <img src="https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/EN_Bungie_D2_v950_OfferPortrait_S2_1200x1600_1200x1600-ac29e9976c4af01e083b627fe0906983" >
+        <h2>Destiny 2</h2>
+        <p>Destiny 2 is a multiplayer science-fiction action role-playing video game developed by Bungie.<br>
+        <b>Rs.140</b></p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_hsmQaG9qVV8aL6QnoNGovmV3bnndU9Sq4UqsfOQtg&s=10" >
+        <h2>Minecraft</h2>
+        <p>Minecraft is a sandbox video game developed by Mojang Studios.<br>
+        <b>Rs.199</b></p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Call_Of_Duty_%282003%29%2CCover%2CUpdated.jpg" >
+        <h2>Roblox</h2>
+        <p>Roblox is an online platform and storefront for video games and virtual worlds.<br>
+        <b>Rs.199</b></p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHUaY_dgZGWD7Y8GEpuqs_fK8gcSXB5CYGna6bYwSgyg&s=10" >
+        <h2>Red Dead Redemption 2</h2>
+        <p>Red Dead Redemption 2 is an action-adventure video game developed by Rockstar Games.<br>
+        <b>Rs.949</b></p>
+        <button>Buy Now</button>
+    </div>
+
+    <h2 id="nd">NEW RELEASES</h2>
+
+    <p align="center" style="font-size: 24px; color: #333;">Check out our latest game releases! </p>
+    
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLLQUPGgOIEcLh4wgT7K7AWv_mC0p4GineOoepWEaX9w0JVa8gpiYGV6b&s=10" >
+        <h2>GTA-6</h2>
+        <p>GTA-6 is the upcoming installment in the Grand Theft Auto series.<br>
+        Expected Release @<b>Rs.9999</b></p>
+        <button>Pre-Order Now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://store-images.s-microsoft.com/image/apps.33604.13909325017677379.9a3c9d20-3519-4440-93bd-818422d15d94.aa5b88ca-df3e-444e-9892-601610a906cc" >
+        <h2>Halo: Campaign Evolved</h2>
+        <p>Halo: Campaign Evolved is a first-person shooter video game developed by Bungie.<br>
+        Expected Release @<b>Rs.1499</b></p>
+        <button>Pre-Order Now</button>
+     </div>
+
+     <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjCAi_mJtzZ69FAWABAKcw6KFavHTCov2rlLwMlJVKJYxJlZmtytb3IJoS&s=10" >
+        <h2>Control: Resonant </h2>
+        <p>Control: Resonant is a first-person shooter video game developed by 343 Industries.<br>
+        Expected Release @<b>Rs.1399</b></p>
+        <button>Pre-Order Now</button>
+     </div>
+
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Njs7mrkq-Tm8sAzXavQOwCVoPxNFQE6LwUv7TWFhXEshxXMlf6EE8XpO&s=10" >
+        <h2>Mouse: P.I. For Hire</h2>
+        <p>Mouse: P.I. For Hire is a point-and-click adventure game developed by The Fullbright Company.<br>
+        Expected Release @<b>Rs.1299</b></p>
+        <button>Pre-Order Now</button>
+     </div>
+
+     <h2 id="cr">CUSTOMER REVIEWS</h2>
+    
+
+     <div class="crd">
+        1. "I recently purchased a game from BeatBox Games and I couldn't be happier with my experience. The website was easy to navigate, and the checkout process was smooth. The game arrived quickly and in perfect condition. I highly recommend BeatBox Games for all your gaming needs!" - John D.
+        ⭐⭐⭐⭐
+    </div>
+   
+    <div class="crd">
+        2. "BeatBox Games has an amazing selection of games at great prices. I was able to find the game I was looking for and even discovered some new titles I hadn't heard of before. The customer service team was also very helpful when I had a question about my order. I'll definitely be shopping here again!" - Sarah L.
+        ⭐⭐⭐⭐⭐  
+    </div>
+  
+    <div class="crd">
+        3. "I had a great experience shopping at BeatBox Games. The website was easy to use, and the checkout process was quick and simple. My order arrived on time and in perfect condition. I would definitely recommend BeatBox Games to anyone looking for quality games at a great price!" - Michael R.
+        ⭐⭐⭐⭐
+    </div>
+   
+    <div class="crd">
+        4. "I had a bad experience. I ordered a game from BeatBox Games and it arrived damaged. I contacted customer service and they were not very helpful in resolving the issue. I would not recommend this company to anyone." - Emily T.
+        ⭐⭐
+    </div>
+    
+    <br>
+    
+    <button style="background-color: #0c005b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%; text-align: center;">Leave a Review</button> 
+    
+    <br><br>
+
+    <p align="center" style="font-size: 24px; color: #333;">We value your feedback! Please leave a review of your experience with BeatBox Games. Your input helps us improve our services and provide the best gaming experience possible.</p>
+    
+    <br><br>
+    
+    <p align="center" style="font-size: 24px; color: #333;"><b>Follow us on social media for the latest updates and promotions! & Contact us @ beatboxgames@gmail.com</b></p>
+    
+    <p align="center" style="font-size: 24px; color: #333;">Thank you for choosing BeatBox Games!</p>
+   
+    <footer style="background-color: rgb(12, 0, 91); color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2024 BeatBox Games. All rights reserved.</p>
+    </footer>   
+   
+</body>
+</html>
